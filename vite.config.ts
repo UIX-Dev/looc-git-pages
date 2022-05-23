@@ -5,7 +5,7 @@ import legacy from "@vitejs/plugin-legacy";
 import * as path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: "/uixhello.github.io/looc-git-pages/",
+	base: "/looc-git-pages/",
 	plugins: [
 		react(),
 		tsconfigPaths(),
