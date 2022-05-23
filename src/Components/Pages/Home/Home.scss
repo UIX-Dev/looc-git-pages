@@ -1,0 +1,30 @@
+.home-container {
+  width: 100%;
+  .group {
+    width: 100%;
+    .intro-character {
+      .img {
+        width: 100%;
+      }
+    }
+    .intro-text {
+      @include GothamRoundedBook(44px);
+      //   font-family: GothamRounded-book;
+      width: 100%;
+      font-size: 44px;
+      padding-top: 30px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    .intro-video {
+      width: 100%;
+
+      padding-top: 120px;
+      padding-left: 32px;
+      padding-right: 32px;
+      .video {
+        width: 100%;
+      }
+    }
+  }
+}
